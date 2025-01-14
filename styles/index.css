@@ -7,6 +7,10 @@
   margin-left: auto;
 }
 
+body {
+  background-color: #FFFFFD;
+}
+
 .bar {
   background-color: #231815;
 }
@@ -52,7 +56,7 @@
 }
 
 .header {
-
+  margin-bottom: 3.75rem;
 }
 
 .header__wrapper {
@@ -62,6 +66,10 @@
   height: 5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.header__main {
+  height: 100%;
 }
 
 .header__logo {
@@ -104,8 +112,9 @@
   display: flex;
   justify-content: space-between;
   border: 1px solid #F5F5F5;
-  border-radius: 1rem;
+  border-radius: 1.25rem;
   padding: 0.625rem 1rem 0.625rem 1.3125rem;
+  cursor: pointer;
 }
 
 .search__field,
@@ -138,7 +147,7 @@
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  border-radius: 1rem;
+  border-radius: 1.25rem;
   background-color: #000000;
 }
 
@@ -175,4 +184,168 @@
   line-height: 140%;
   color: #1A1A1A;
   z-index: 2;
+}
+
+.cards {
+  margin-bottom: 3.75rem;
+}
+
+.cards__title {
+  margin-bottom: 2.5rem;
+  font-family: sans-serif;
+  font-size: 2.75rem;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.cards__wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 35.3125rem;
+  gap: 3.125rem 2.5rem;
+}
+
+.card {
+
+}
+
+.cards__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.card__top {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-grow: 1;
+  border-radius: 1.25rem;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+}
+
+.card__top:hover > .card__overlay {
+  opacity: 1;
+  pointer-events: initial;
+}
+
+.card__image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.card__promotion {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7.875rem;
+  height: 2.375rem;
+  top: 0.625rem;
+  left: 0.625rem;
+  border-radius: 1.25rem;
+  background-color: #231815;
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.card__overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.5rem;
+  margin-top: auto;
+  background-color: rgba(245, 245, 245, 0.7);
+  pointer-events: none;
+  transition-property: opacity;
+  transition-duration: 250ms;
+  opacity: 0;
+}
+
+.card__details {
+  width: 16.125rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.25rem;
+  background-color: #E45302;
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.card__info {
+
+}
+
+.card__name {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-family: "Lato";
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.card__price {
+
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price_with-discount {
+
+}
+
+.price__item {
+  font-family: "Lato";
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 140%;
+  color: #231815;
+}
+
+.price__number,
+.price__currency {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+.price_with-discount > .price__item:first-child {
+  color: #E45302;  
+}
+
+.price_with-discount > .price__item:last-child {
+  font-weight: 600;
+  color: #808080;
+}
+
+.price_with-discount > .price__item:last-child > .price__number {
+  text-decoration: line-through;
+}
+
+.price__number {
+
+}
+
+.price__currency {
+
 }
