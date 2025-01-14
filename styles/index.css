@@ -1,0 +1,52 @@
+.container {
+  width: 93rem;
+  max-width: 100%;
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bar {
+  background-color: #231815;
+}
+
+.bar__wrapper {
+  display: flex;
+  justify-content: end;
+  height: 2.5rem;
+}
+
+.bar__list {
+  display: flex;
+  align-items: center;
+  gap: 4.375rem;
+}
+
+.bar__item {
+
+}
+
+.bar__link {
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.language-switcher {
+
+}
+
+.language-switcher__item {
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.language-switcher__item_current {
+  display: none;
+}
