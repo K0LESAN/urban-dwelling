@@ -349,3 +349,127 @@ body {
 .price__currency {
 
 }
+
+.footer {
+  background-color: #0C0C0C;
+}
+
+.footer__wrapper {
+  height: 20rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.footer__left {
+  width: 20.1875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__link-main {
+  width: 14.9375rem;
+}
+
+.footer__logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer__info {
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 140%;
+  color: #808080;
+}
+
+.footer__text {
+
+}
+
+.footer__doc-link {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+.footer__middle {
+  width: 33.4375rem;
+  max-width: 100%;
+}
+
+.footer__groups {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__group {
+
+}
+
+.footer__label {
+  margin-bottom: 1.25rem;
+  font-family: "Lato";
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 100%;
+  color: #FFFFFF;  
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.footer__link {
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 100%;
+  color: #F5F5F5;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 4.5rem;
+}
+
+.footer__docs {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 1.25rem;
+}
+
+.footer__doc {
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 140%;
+  color: #808080;
+}
+
+.footer__cards {
+  width: 13.4375rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__card {
+
+}
+
