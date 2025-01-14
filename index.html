@@ -15,10 +15,10 @@
     <div class="bar__wrapper container">
       <ul class="bar__list">
         <li class="bar__item">
-          <a href="delivery-and-payment" class="bar__link">Доставка и оплата</a>
+          <a href="/delivery-and-payment" class="bar__link">Доставка и оплата</a>
         </li>
         <li class="bar__item">
-          <a href="warranty-and-returns" class="bar__link">Гарантия и возврат</a>
+          <a href="/warranty-and-returns" class="bar__link">Гарантия и возврат</a>
         </li>
         <li class="bar__item">
           <div class="language-switcher">
@@ -29,6 +29,37 @@
       </ul>
     </div>
   </div>
+  <header class="header">
+    <div class="header__wrapper container">
+      <img src="/assets/icons/logo.svg" alt="Urban Dwelling" class="header__logo">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="/catalog" class="header__link">Каталог</a>
+          </li>
+          <li class="header__item">
+            <a href="/about" class="header__link">О компании</a>
+          </li>
+          <li class="header__item">
+            <a href="/contacts" class="header__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__panel">
+        <label for="search" class="search">
+          <input type="text" id="search" placeholder="поиск..." autocomplete="off" class="search__field">
+          <img src="/assets/icons/search.svg" alt="" class="search__icon">
+        </label>
+        <a href="/basket" class="basket">
+          <div class="basket__wrapper">
+            <img src="/assets/icons/basket.svg" alt="" class="basket__icon">
+            <span class="basket__counter">3</span>
+          </div>
+          <span class="basket__text">Корзина</span>
+        </a>
+      </div>
+    </div>
+  </header>
 </body>
 
 </html>
