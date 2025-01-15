@@ -6,7 +6,7 @@
   src:
     local("Inter Regular"),
     local("Inter-Regular"),
-    url("/assets/fonts/inter-regular.ttf") format("truetype");
+    url("../assets/fonts/inter-regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -17,7 +17,7 @@
   src:
     local("Roboto Regular"),
     local("Roboto-Regular"),
-    url("/assets/fonts/roboto-regular.ttf") format("truetype");
+    url("../assets/fonts/roboto-regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -28,7 +28,7 @@
   src:
     local("Lato Regular"),
     local("Lato-Regular"),
-    url("/assets/fonts/lato-regular.ttf") format("truetype");
+    url("../assets/fonts/lato-regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -39,7 +39,7 @@
   src:
     local("Lato Medium"),
     local("Lato-Medium"),
-    url("/assets/fonts/lato-medium.ttf") format("truetype");
+    url("../assets/fonts/lato-medium.ttf") format("truetype");
 }
 
 @font-face {
@@ -50,7 +50,7 @@
   src:
     local("Lato SemiBold"),
     local("Lato-SemiBold"),
-    url("/assets/fonts/lato-semibold.ttf") format("truetype");
+    url("../assets/fonts/lato-semibold.ttf") format("truetype");
 }
 
 @font-face {
@@ -61,5 +61,5 @@
   src:
     local("Lato Bold"),
     local("Lato-Bold"),
-    url("/assets/fonts/lato-bold.ttf") format("truetype");
+    url("../assets/fonts/lato-bold.ttf") format("truetype");
 }
